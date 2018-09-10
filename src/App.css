@@ -1,0 +1,15 @@
+body {
+	font-family: monospace;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(3, 12%);
+	grid-column-gap: 10px;
+	justify-content: center;
+}
